@@ -1,4 +1,4 @@
-import { roundTo } from "./utils.ts";
+import {roundTo} from "./utils.ts";
 
 export class Fraction {
   constructor(
