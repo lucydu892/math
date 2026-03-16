@@ -22,5 +22,5 @@ Deno.test("distanceTo x = 5 and y = 7", () => {
   const actual = point1.distanceTo(point2);
 
   //Then
-  assertEquals(actual, 8.60)
+  assertAlmostEquals(actual, 8.6023, 0.0001)
 })
