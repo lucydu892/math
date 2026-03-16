@@ -15,11 +15,12 @@ Deno.test("circumference of a circle with radius 5 is roughtly 31.416", () => {
 
 Deno.test("distanceTo x = 5 and y = 7", () => {
   //Given
-  const point2d = new Point2D(5, 7)
+  const point1 = new Point2D(0, 0);
+  const point2 = new Point2D(5, 7);
 
   //When
-  const actual = point2d.distanceTo(point2d);
+  const actual = point1.distanceTo(point2);
 
   //Then
-  assertEquals(actual,)
+  assertEquals(actual, 8.60)
 })
